@@ -34,7 +34,7 @@ class Mobil extends Kendaraan
     }
 
     // Method untuk menampilkan informasi mobil
-    public function infoMobil()
+    public function infoJenis()
     {
         return $this->infoKendaraan() . ", Merk: $this->merk";
     }
@@ -44,4 +44,4 @@ class Mobil extends Kendaraan
 $mobilBaru = new Mobil("Mobil", "Merah", "Toyota");
 
 // Menampilkan informasi mobil
-echo $mobilBaru->infoMobil();
+echo $mobilBaru->infoJenis();
