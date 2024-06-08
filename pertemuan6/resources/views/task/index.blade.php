@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h3 class="text-center">Daftar Tugas</h3>
+                <h3 class="text-center">Daftar Tugass</h3>
                 <hr>
                 <div class="row">@foreach ($tasks as $task)
                     <div class="col-12 col-md-4">
